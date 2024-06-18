@@ -18,17 +18,6 @@ void printList(Node* head) {
     }
 }
 
-/* recursive print
-void printList(Node* head) {
-    if (head == nullptr) { 
-        return;
-    }
-    std::cout << head->val << " ";
-    head = head->next;
-    printList(head);
-}
-*/
-
 int main() {
     Node a(1);
     Node b(2);
